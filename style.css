@@ -1,0 +1,83 @@
+/* STYLE SECTIONING TAGS */
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  header {
+    text-align: center;
+  }
+  header {
+    text-align: center;
+    background-color: #0298A3;
+    color: white;
+    padding-bottom: 1em;
+    padding-top: 0.25em;
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+  body {
+    background-color: #AFEFF4;
+    font-family: "Helvetica";
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
+  }
+  /* STYLE TEXT */
+  h1 {
+    text-align: center;
+    padding-bottom: 0.25em;
+  }
+  #aboutme {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: black;
+    text-align: center
+  }
+  #portfolio {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .words {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+  #intro {
+    padding-bottom: 2em;
+  }
+  /* STYLE IMAGES */
+  .pics {
+    max-height: 15%;
+    max-width: 15%;
+    border-radius: 15%;
+  }
+  .smallpic {
+    max-height: 40%;
+    max-width: 40%;
+    border-radius: 15%;
+  }
+  /* STYLE NAV BAR */
+  ul {
+    list-style-type: none;
+    background-color: #016970;
+    overflow: hidden;
+    padding: 0.3em;
+  }
+  li {
+    display: inline;
+  }
+  li a {
+    text-decoration: none;
+    color:  white;
+    font-size: 1.3em;
+    padding: 1em;
+  }
+  li a:hover {
+    background-color: #0298A3;
+  }

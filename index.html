@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Bowlby+One+SC&family=Great+Vibes&display=swap" rel="stylesheet">
+  </head>
   <header>
     
     <meta charset="utf-8">
@@ -12,41 +17,134 @@
 	  <!-- link the webpage's JavaScript file -->
 	  <script src="js/script.js"></script>
 
+    <nav>
+      <ul>
+        <li><a href = "#aboutmescroll">About Me</a></li>
+        <li><a href = "#skillscroll">Skills</a></li>
+        <li><a href = "#projects">Projects</a></li>
+        <li><a href = "#contactme">Contact Me</a></li>
+      </ul>
+    </nav>
 
-    <h1>Sabrina Codipilly</h1>
-    <h3>Peronsal Website</h3>
   </header>
   
   <body>
-    <nav>
-      <ul>
-        <li><a href = "index.html">Home</a></li>
-        <li><a href = "portfolio.html">Portfolio</a></li>
-      </ul>
-    </nav>
-    
-    <img id = "mepic" src = "images/introimage.png" alt = "Portrait photo of Sabrina Codipilly.">
-    
-    <div class = "x">
-      <h2>About Me</h3>
+    <div id = "welcomeheader">
+      <h1 id = "welcome">Welcome</h1>
+      <img id = "mepic" src = "images/public/images/my-phot.png" alt = "Cutout photo of Sabrina Codipilly.">
+      <h2 id = "I">I</h2>
+      <h2 id = "AM">AM</h2>
+      <h1 id = "nameheader">Sabrina Codipilly</h1>
     </div>
 
-    <div>
-      <p class = "words">My name is Sabrina Codipilly and I am a second-year undergraduate student majoring in computer science and minoring in management information systems at Santa Clara University. Here is a little bit about who I am: </p>
-    </div>
-    <div>
-      <p class = "words">Computer science has been a passion of mine since the fifth grade. I first came across it when my fifth grade teacher had the class participate in Hour of Code. My love for MineCraft is a big factor as to how I fell in love with computer science, since the Hour of Code allowed me to make Steve from MineCraft move forwards and backwards just by placing blocks together.</p>
-    </div>
-    <div>
-      <p class = "words">As a computer science major, I'm thrilled to dive deep into the realms of coding. I'm excited to challenge myself, learn from inspiring professors, and collaborate with fellow students to make the most out of my college experience at Santa Clara University.</p>
-    </div>
-    <div>
-      <p class = "words">While I'm just beginning my college journey, I'm already setting my sights on expanding my computer science skill and experience in the work field. Whether it's landing an internship in my dream industry, conducting research in a cutting-edge field, or simply expanding my horizons through travel, I'm determined to make the most of every opportunity that comes my way.</p>
+    <div id="aboutmescroll" class="scroll-anchor"></div>
+    <h1 id = "aboutme">About Me</h1>
+    <div id="aboutme-container">
+      <div id = "aboutmedescription"><p>Hi! I’m Sabrina Codipilly, a third-year Computer Science major with a minor in Management Information Systems at Santa Clara University. I am based in San Jose, CA. I fell in love with coding back in fifth grade during the Hour of Code through Code.org, thanks largely to my Minecraft obsession, and that spark has only grown stronger. At SCU, I’m excited to challenge myself, collaborate with others, and explore how tech can make a real-world impact through internships, research, or creative projects. <br> <br> Beyond coding, I’m passionate about seafood and sushi and I love attending concerts for all my favorite artists. I’m especially excited for my upcoming study abroad in London this fall!</p></div>
+      <div id ="aboutme-images">
+        <img id = "scupic" src = "images/scu.png" alt = "Santa Clara University logo">
+        <img id = "circlephoto" src = "images/seniorportrait.png" alt = "Portrait photo of Sabrina Codipilly">
+        <img id = "cspic" src = "images/cs.webp" alt = "Clipart photo of coding">
+      </div>
     </div>
 
-    <div class = "x">
-      <h2>Contact Me</h3>
+    <div id="skillscroll" class="scroll-anchor"></div>
+    <div id = "skills">
+      <h1 id = "skillheader">My Skills Include:</h1>
+      <div class = "grid">
+        <div class = "imgcols">
+          <img id = "cpluspluspic" src = "images/c++.png" alt = "C++ logo">
+          <h3 class = "languages">C++</h3>
+        </div>
+        <div class = "imgcols">
+          <img id = "pythonpic" src = "images/python.png" alt = "Python logo">
+          <h3 class = "languages">Python</h3>
+        </div>
+        <div class = "imgcols">
+          <img id = "javapic" src = "images/java.png" alt = "Java logo">
+          <h3 class = "languages">Java</h3>
+        </div>
+        <div class = "imgcols">
+          <img id = "mysqlpic" src = "images/mysql.png" alt = "MySQL logo">
+          <h3 class = "languages">MySQL</h3>
+        </div>
+        <div class = "imgcols">
+          <img id = "linuxpic" src = "images/linux.webp" alt = "Linux logo">
+          <h3 class = "languages">Linux</h3>
+        </div>
+      </div>
+      <div class = "grid">
+        <div class = "imgcols">
+          <img id = "htmlpic" src = "images/html.png" alt = "HTML logo">
+          <h3 class = "languages">HTML</h3>
+        </div>
+        <div class = "imgcols">
+          <img id = "csspic" src = "images/css.png" alt = "CSS logo">
+          <h3 class = "languages">CSS</h3>
+        </div>
+        <div class = "imgcols">
+          <img id = "javascriptpic" src = "images/javascript.png" alt = "JavaScript logo">
+          <h3 class = "languages">JavaScript</h3>
+        </div>
+        <div class = "imgcols">
+          <img id = "reactpic" src = "images/react.png" alt = "Figma logo">
+          <h3 class = "languages">React</h3>
+        </div>
+        <div class = "imgcols">
+          <img id = "nodejspic" src = "images/nodejs.png" alt = "Node.js logo">
+          <h3 class = "languages">Node.js</h3>
+        </div>
+      </div>
     </div>
-    <p id = "intro"> scodipilly@scu.edu | (669) 294-7422 | San Jose, CA 95124 | <a href = https://www.linkedin.com/in/sabrinacodipilly/>www.linkedin.com/in/sabrinacodipilly</a></p>
+
+    <div id="projects" class="scroll-anchor"></div>
+    <h1 class = "sectionheader">Projects</h1>
+    <div class = "socialnetworkproject">
+      <div id = "socialnetworklineup">
+        <h2 class = "projecttitles">CSCI 62 - Advanced <br> Programming Final Project: <br> Social Network Project</h2>
+        <p class = "projectdescriptions">I built a social networking application in C++ using Qt Creator, featuring an interactive interface with buttons, text fields, lists, and a search bar. The project included user authentication, account creation, and customizable privacy settings for posts and profiles. I also implemented file-based data storage to handle friend requests, post creation and likes, while ensuring unique usernames and secure user management.</p>
+        <p><a href = "https://github.com/sabrinacodipilly/socialnetworkproject" target="_blank"><img id = "socialnetworkgithub" src = "images/github.png" alt = "github logo"></a></p>  
+      </div>
+      <video id = "socialnetworkvid" width="527.96" height="335" frameborder="0" controls><source src="videos/socialnetworkprojectvid.mp4" type="video/mp4">Failed to load video.</video>
+    </div>
+    <div id = "tripplannerproject">
+      <div class = "projectlineup">
+        <h2 class = "projecttitles">Independent Project: <br> Trip Planner</h2>
+        <p class = "projectdescriptions" id="tripplannerdesc">I developed a trip-planning application in Python with SQL integration to help organize study-abroad travel in Europe. The program allows users to input trip details such as dates, activities, transportation methods, and time allocations. It also includes a built-in currency converter (EUR/GBP → USD) for budgeting and expense tracking, and generates a complete, printable itinerary for easy access while traveling.</p>
+        <div>
+          <p><a href = "https://github.com/sabrinacodipilly/tripplanner" target="_blank"><img class = "githubrepository" src = "images/github.png" alt = "Gihub logo"></a></p>
+        </div>
+      </div>
+      <video id = "tripplannervid" width="527.96" height="335" frameborder="0" controls><source src="videos/trip-planner-vid.mp4" type="video/mp4">Failed to load video.</video>
+    </div>
+    <div class = "socialnetworkproject">
+      <div class = "projectlineup">
+        <h2 class = "projecttitles">P&M Caseworks: <br> Website</h2>
+        <p class = "projectdescriptions">I collaborated with the owners of P&M Caseworks to design and develop a responsive multi-page website showcasing their services. Using Figma for mockups and React, HTML, CSS, and JavaScript for implementation, I ensured mobile-friendly performance and security. After resolving vulnerabilities, I configured a new AWS domain. This project is still a work in progress.</p>
+        <div>
+          <p><a href = "https://github.com/sabrinacodipilly/pmcaseworks" target="_blank"><img class = "githubrepository" src = "images/github.png" alt = "Gihub logo"></a></p>
+        </div>
+      </div>
+      <img id="caseworksPic" width="527.96" height="335" src="images/pmcaseworks.png" alt="Screenshot of website (WIP)">
+    </div>
+
+    <h1 class = "sectionheader" id = "contactme">Contact Me</h1>
+    <div id = "contactsection">
+      <div id = "emailform">
+        <h2 id = "emailheader">Email Me</h2>
+        <form action="https://formspree.io/f/manbpery" method="POST">
+          <input class = "formtext" type="text" name="Name" placeholder="Full Name" required>
+          <input class = "formtext" type="email" name="Email" placeholder="Email" required>
+          <input class = "formtext" type="text" name="Subject" placeholder="Subject">
+          <input type="hidden" name="_next" value="https://sabrinacodipilly.github.io/personalwebsite/portfolio.html">
+          <textarea  class = "formtext" id = "messagebox" name="Message" placeholder="Message" required></textarea>
+          <button id = "contactbutton" type="submit">Send</button>
+        </form>
+      </div>
+      <div id = "contactphotos">
+        <p><a href = "https://www.linkedin.com/in/sabrinacodipilly/" target="_blank"><img id = "contactlinkedin" src = "images/linkedin.png" alt = "LinkedIn Logo"></a></p>
+        <p><a href = "https://github.com/sabrinacodipilly" target="_blank"><img id = "contactgithub" src = "images/github.png" alt = "Github Logo"></a></p>
+      </div>
+    </div>
   </body>
 </html>

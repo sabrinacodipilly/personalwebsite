@@ -173,7 +173,7 @@
     border-radius: 50%;
     overflow: hidden;
     object-fit: cover;
-    object-position: 50% 25%;
+    object-position: 50% 50%;
     background-color: #A96097;
     padding: 10px;
     width: 100%;
@@ -385,6 +385,17 @@
     line-height: normal;   
     margin-top: 5px;
     margin-bottom: 0;
+  }
+
+  #pathheroes {
+    background-color: #5B609F;
+    padding: 5px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 527.96px;
+    height: 335px;
   }
 
   .socialnetworkproject {

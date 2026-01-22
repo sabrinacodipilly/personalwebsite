@@ -387,6 +387,22 @@
     margin-bottom: 0;
   }
 
+  #pathheroesproject {
+    background-color: #A96097;
+    width: 1065px;
+    min-height: 454px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    left: 50%;
+    text-align: center;
+    display: flex;
+    transform: translateX(22%);
+    border-radius: 40px;
+    justify-content: flex-start;
+    margin-bottom: 4%;
+  }
+
   #pathheroes {
     background-color: #5B609F;
     padding: 5px;
@@ -394,12 +410,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 527.96px;
+    width: 1000px;
     height: 335px;
   }
 
   .socialnetworkproject {
-    background-color: #A96097;
+    background-color: #5B609F;
     width: 1065px;
     height: 454px;
     flex-shrink: 0;
@@ -423,7 +439,7 @@
   }
 
   #socialnetworkvid {
-    background-color: #5B609F;
+    background-color: #A96097;
     padding: 5px;
     margin-right: 10px;
     display: flex;
@@ -452,7 +468,7 @@
   }
 
   #tripplannerproject {
-    background-color: #5B609F;
+    background-color: #A96097;
     width: 1065px;
     height: 454px;
     flex-shrink: 0;
@@ -467,7 +483,7 @@
   }
 
   #tripplannervid {
-    background-color: #A96097;
+    background-color: #5B609F;
     padding: 5px;
     margin-right: 10px;
     display: flex;
@@ -476,7 +492,7 @@
   }
 
   #caseworksPic {
-    background-color: #5B609F;
+    background-color: #A96097;
     padding: 5px;
     margin-right: 10px;
     display: flex;

@@ -390,7 +390,7 @@
   #pathheroesproject {
     background-color: #A96097;
     width: 1065px;
-    min-height: 454px;
+    height: 454px;
     flex-shrink: 0;
     align-items: center;
     justify-content: space-between;
